@@ -127,8 +127,7 @@ header .navbar nav ul li a:hover{
 	font-weight: bold;
 	margin-top: 55px;
 	text-decoration: none;
-	padding: 10px 15px;
-	color: #fff;
+	padding: 10px 20px;
 	background: #1bbc9b;
 }
 .jumbotron .caption .icon{
@@ -137,4 +136,181 @@ header .navbar nav ul li a:hover{
 .jumbotron .caption .icon .white{
 	color: #fff;
 	cursor: pointer;
+}
+.main .portfolio{
+	margin-top: -4px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	/*background: #7C4DDC;*/
+	text-align: center;
+}
+.main .portfolio .title{
+	padding: 3px;
+}
+.main .portfolio .title .text-1{
+	display: block;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(68, 68, 68);
+}
+.main .portfolio .title .text-2{
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(68, 68, 68);
+}
+.main .portfolio .nav-filter{
+	margin-top: 40px;
+}
+.main .portfolio .nav-filter ul{
+	margin: 0px;
+	padding: 0px;
+}
+.main .portfolio .nav-filter ul li:first-child{
+	margin-left: 0px;
+}
+.main .portfolio .nav-filter ul li{
+	display: inline-block;
+	margin-left: 15px;
+	padding: 15px;
+	background: #1bbc9b;
+	font-size: 13px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/*1*/
+.main .portfolio .colums{
+	margin-top: 45px;
+	padding: 5px;
+}
+.main .portfolio .colums .col-1:first-child{
+	margin-left: 0px;
+}
+.main .portfolio .colums .col-1{
+	position: relative;
+	margin-left: 60px;
+	cursor: pointer;
+}
+.main .portfolio .colums .col-1 .hover{
+	position: absolute;
+	top: 0px;
+	bottom: 4px;
+	left: 0px;
+	right: 0px;
+	background: rgba(22, 160, 134, 0.7);
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.main .portfolio .colums .col-1 .hover .elipse{
+	position: absolute;
+	top: 12%;
+	left: 35%;
+	padding: 3px;
+	border-radius: 50%;
+	background-color: rgba(68, 68, 68, 0.6);
+	width: 43px;
+	height: 45px;
+}
+.main .portfolio .colums .col-1 .hover .elipse .font{
+	margin-top: 12px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+}
+.main .portfolio .colums .col-1 .hover .title{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	padding: 3px;
+}
+.main .portfolio .colums .col-1 .hover .title .text-1{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .portfolio .colums .col-1 .hover .title .text-2{
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .portfolio .colums .col-1:hover .hover{
+	opacity: 1;
+}
+/*2*/
+.main .portfolio .colums-1{
+	margin-top: 30px;
+	padding: 5px;
+}
+.main .portfolio .colums-1 .col-1:first-child{
+	margin-left: 0px;
+}
+.main .portfolio .colums-1 .col-1{
+	position: relative;
+	margin-left: 60px;
+	cursor: pointer;
+}
+.main .portfolio .colums-1 .col-1 .hover{
+	position: absolute;
+	top: 0px;
+	bottom: 4px;
+	left: 0px;
+	right: 0px;
+	background: rgba(22, 160, 134, 0.7);
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.main .portfolio .colums-1 .col-1 .hover .elipse{
+	position: absolute;
+	top: 12%;
+	left: 35%;
+	padding: 3px;
+	border-radius: 50%;
+	background-color: rgba(68, 68, 68, 0.6);
+	width: 43px;
+	height: 45px;
+}
+.main .portfolio .colums-1 .col-1 .hover .elipse .font{
+	margin-top: 12px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+}
+.main .portfolio .colums-1 .col-1 .hover .title{
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	padding: 3px;
+}
+.main .portfolio .colums-1 .col-1 .hover .title .text-1{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .portfolio .colums-1 .col-1 .hover .title .text-2{
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .portfolio .colums-1 .col-1:hover .hover{
+	opacity: 1;
 }
