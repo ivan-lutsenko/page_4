@@ -99,7 +99,7 @@ header .navbar nav ul li a:hover{
 }
 .jumbotron .caption .text-1{
 	display: inline-block;
-	margin-top: 75px;
+	margin-top: 55px;
 	font-size: 55px;
 	font-family: 'Lato', sans-serif;
 	color: rgb(255, 255, 255);
@@ -143,7 +143,6 @@ header .navbar nav ul li a:hover{
 	padding-bottom: 60px;
 	padding-left: 15px;
 	padding-right: 15px;
-	/*background: #7C4DDC;*/
 	text-align: center;
 }
 .main .portfolio .title{
@@ -313,4 +312,227 @@ header .navbar nav ul li a:hover{
 }
 .main .portfolio .colums-1 .col-1:hover .hover{
 	opacity: 1;
+}
+.main .about-us{
+	padding-top: 50px;
+	padding-bottom: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	background: #16a086;
+}
+.main .about-us .title{
+	padding: 3px;
+}
+.main .about-us .title .text-1{
+	display: block;
+	font-size: 28px;
+	font-family: "Lato", sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .about-us .title .text-2{
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255, 255, 255);
+}
+.main .about-us .colums{
+	margin-top: 50px;
+	padding: 3px;
+}
+.main .about-us .colums .colum-1:first-child{
+	margin-left: 0px;
+}
+.main .about-us .colums .colum-1{
+	padding: 1px;
+	background: #fff;
+	margin-left: 50px;
+}
+.main .about-us .colums .colum-1 .block-social{
+	position: relative;
+	cursor: pointer;
+}
+.main .about-us .colums .colum-1 .block-social:hover .social{
+	opacity: 1;
+}
+.main .about-us .colums .colum-1 .block-social .social{
+	position: absolute;
+	top: 0px;
+	bottom: 4px;
+	left: 0px;
+	right: 0px;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.main .about-us .colums .colum-1 .block-social .social .outer:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.main .about-us .colums .colum-1 .block-social .social .outer{
+	text-align: center;
+	height: 100%; 
+	width: 100%; 
+}
+.main .about-us .colums .colum-1 .block-social .social .outer .inner{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -0.35em;
+	padding: 10px 15px;
+	background-color: rgba(22, 160, 134, 0.8);
+	color: #fff;
+	font-size: 25px;
+}
+.main .about-us .colums .colum-1 .block-social .social .outer .inner .mg:first-child{
+	margin-left: 0px;
+}
+.main .about-us .colums .colum-1 .block-social .social .outer .inner .mg{
+	margin-left: 15px;
+	cursor: pointer;
+}
+.main .about-us .colums .colum-1 .block{
+	padding: 20px 10px;
+	background: #fff;
+}
+.main .about-us .colums .colum-1 .block .title{
+	display: block;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+	line-height: 1.2;
+}
+.main .about-us .colums .colum-1 .block .title-1{
+	display: block;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+	font-style: italic;
+	line-height: 1.2;
+}
+.main .about-us .colums .colum-1 .block .description{
+	display: block;
+	width: 200px;
+	text-align: left;
+	margin-top: 25px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+	line-height: 1.429;
+}
+.main .contact-us{
+	padding-top: 50px;
+	padding-bottom: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	background: #ecf0f1;
+}
+.main .contact-us .title{
+	padding: 3px;
+}
+.main .contact-us .title .text-1{
+	display: block;
+	font-size: 28px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+}
+.main .contact-us .title .text-2{
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: rgb(68, 68, 68);
+}
+.main .contact-us .colums{
+	margin-top: 50px;
+	padding: 3px;
+}
+.main .contact-us .colums .form{
+	padding: 3px;
+	text-align: left;
+}
+.main .contact-us .colums .form input{
+	border: 2px solid rgb(190, 195, 199);
+	background: rgb(255, 255, 255);
+	width: 220px;
+	padding: 15px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(153, 153, 153);
+	font-style: italic;
+	outline: none;
+}
+.main .contact-us .colums .form input:last-child{
+	margin-left: 20px;
+}
+.main .contact-us .colums .form .ots{
+	margin-top: 20px;
+}
+.main .contact-us .colums .form .ots-1{
+	margin-top: 20px;
+	text-align: right;
+}
+.main .contact-us .colums .form .ots textarea{
+	resize: none;
+	border: 2px solid rgb(190, 195, 199);
+	background: rgb(255, 255, 255);
+	width: 93%;
+	padding: 15px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(153, 153, 153);
+	font-style: italic;
+	outline: none;
+}
+.main .contact-us .colums .form .ots-1 button{
+	border: none;
+	background-color: rgb(27, 188, 155);
+	width: 114px;
+	height: 37px;
+	outline: none;
+	cursor: pointer;
+}
+.main .contact-us .colums .form .ots-1 button span{
+	font-size: 13px;
+	font-family: "Lato", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.main .contact-us .colums .information{
+	padding: 2px;
+	max-width: 350px;
+	width: 95%;
+	text-align: left;
+	margin-left: 20px;
+}
+.main .contact-us .colums .information .text-1{
+	display: block;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+	text-transform: uppercase;
+}
+.main .contact-us .colums .information .text-2{
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
+	line-height: 1.714;
+	max-width: 160px;
+	width: 100%;
+}
+.main .contact-us .colums .information .text-3{
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(68, 68, 68);
 }
