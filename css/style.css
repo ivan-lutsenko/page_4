@@ -536,3 +536,33 @@ header .navbar nav ul li a:hover{
 	font-family: "Lato", sans-serif;
 	color: rgb(68, 68, 68);
 }
+footer{
+	padding: 40px;
+	background: #2d3e50;
+}
+footer .col-1{
+	padding: 2px;
+	float: left;
+}
+footer .col-1 span{
+	display: block;
+	margin-top: 17px;
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: rgb(255, 255, 255);
+}
+footer .col-2{
+	padding: 5px;
+	float: right;
+	margin-top: -15px;
+}
+footer .col-2 .rectangle{
+	background-color: rgb(27, 188, 155);
+	padding: 15px 18px;
+	cursor: pointer;
+}
+footer .col-2 .rectangle .font{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+}
